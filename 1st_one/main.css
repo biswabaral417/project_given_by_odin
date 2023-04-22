@@ -74,9 +74,11 @@ flex-wrap: wrap;
 .content-sec2{
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .content-sec2>div{
+    margin: 10px 0;
     text-align: center;
     width: 220px;
 }
