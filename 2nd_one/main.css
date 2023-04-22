@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.first-section{
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(88, 88, 255);
+}
+.second-section{
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+}
+.second-section>div>p{
+    font-size: 15px;
+    font-weight:bolder;
+}
+.second-section>div{
+    margin-bottom: 40px;
+}
+.second-section>div>h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.second-section>div>span{
+    font-size: 18px;
+}
+.special-one{
+    color: #F9FAF8;
+
+}
+.special-two{
+    color: #E5E7EB;
+}
+.special-three{
+    columns: #F9FAF8;
+}
+.special-three>h3{
+    font-size:24px;
+}
+.third-section{
+    padding: 20px;
+}
+.third-section>div{
+    margin: 20px 0;
+}
+.third-section>div>h2{
+    color: #3882F6 ;
+}
+.third-section>div>h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.forth-section{
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+.forth-section>div{
+    margin: 20px 0;
+}
+.forth-section>div>p{
+    font-size: 15px;
+    font-weight:bolder;
+}
+.forth-section > div > h2{
+    font-weight:bold;
+}
+.forth-section>div>h1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:100;
+}
