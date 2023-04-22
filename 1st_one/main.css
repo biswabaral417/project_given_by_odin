@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 15%;
+}
+.top-section{
+    background: rgb(24, 24, 54);
+}
+.navbar{
+    padding:25px 10px;
+
+}
+.navbar>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.navbar>ul>li{
+    list-style: none;
+}
+.navbar>ul>li>a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    margin-right: auto;
+}
+.logo>img{
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hero-banner{
+padding: 60px 0px;
+color: white;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.awes{
+    margin-right: 60px;
+    width: 35%;
+}
+.img-div{
+    width: 45%;
+    min-width: 220px;
+    max-height: 300px;
+}
+.awes>h1,.awes>p{
+    padding: 10px;
+}
+.awes>button{
+    margin: 10px;
+    font-size: 20px;
+    font-weight:900;
+    border: none;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    padding: 10px 35px;
+}
+.second-section>div>h1{
+    text-align: center;
+    font-size: 55px;
+    margin: 50px;
+}
+
+.content-sec2{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.content-sec2>div{
+    text-align: center;
+    width: 220px;
+}
+.content-sec2>div>img{
+    width: 200px;
+    border-radius: 20px;
+}
+.third-section{
+    background: rgb(194, 193, 193);
+    padding: 20px;
+}
+.third-section>div{
+    padding: 100px;
+}
+.third-section>div>i{
+    font-size: 24px;
+}
+.third-section>div>div{
+        text-align:right;
+        font-size: 25px;
+        font-weight: 700;
+}
+.boxx{
+    border-radius: 10px;
+    background: blue;
+    margin:100px ;
+    padding: 50px 100px;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+.boxx>button{
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    padding: 5px 25px;
+}
+footer{
+    background: rgb(24, 24, 54);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
